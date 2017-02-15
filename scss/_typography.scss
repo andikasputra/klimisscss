@@ -40,10 +40,11 @@ a {
 // code
 code {
 	color: $dark;
-	background-color: $gray-light;
+	background-color: $gray-lighter;
 	padding: 20px 30px;
 	display: block;
 	margin: 10px 0;
+	font-family: $font-family-monospace;
 }
 
 // quote

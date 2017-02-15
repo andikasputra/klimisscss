@@ -1,5 +1,5 @@
 /**
- * Klimis v1.1.0
+ * Klimis v1.1.1
  * Licensed under MIT
  */
 /*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
@@ -792,10 +792,11 @@ a {
 
 code {
   color: #444;
-  background-color: #bdc3c7;
+  background-color: #ecf0f1;
   padding: 20px 30px;
   display: block;
-  margin: 10px 0; }
+  margin: 10px 0;
+  font-family: "Courier New", monospace; }
 
 blockquote {
   border-left: 2px solid #000;
