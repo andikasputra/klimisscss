@@ -9,7 +9,7 @@ This framework built with some dependencies
 - [jQuery](https://jquery.com)
 
 # Documentation
-Documentation is coming soon
+Read the documentation in [link here](https://andikasputra.github.io/klimisscss)
 
 # License
 Code is copyright 2017 Andika Saputra. This code is released under [MIT License](LICENSE)

@@ -1,5 +1,5 @@
 /**
- * Klimis v1.1.1
+ * Klimis v1.1.2
  * Licensed under MIT
  */
 /*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
@@ -522,6 +522,16 @@ template {
 * {
   box-sizing: border-box; }
 
+[class*="fixed-"] {
+  position: fixed;
+  z-index: 9; }
+
+.fixed-top {
+  top: 0; }
+
+.fixed-bottom {
+  bottom: 0; }
+
 .container {
   position: relative;
   margin-left: auto;
@@ -751,7 +761,8 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: .1em; }
+  letter-spacing: .1em;
+  margin-bottom: 0; }
 
 h1 {
   font-size: 2.5rem; }
@@ -808,6 +819,15 @@ blockquote {
   blockquote small {
     display: block;
     color: #444; }
+
+.alignleft {
+  text-align: left; }
+
+.alignright {
+  text-align: right; }
+
+.aligncenter {
+  text-align: center; }
 
 .navigation {
   width: 100%;

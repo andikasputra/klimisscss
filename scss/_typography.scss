@@ -5,6 +5,7 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: $font-weight-bold;
 	text-transform: uppercase; 
 	letter-spacing: .1em;
+	margin-bottom: 0;
 }
 h1 { font-size: $font-size-h1; }
 h2 { font-size: $font-size-h2; }
@@ -60,3 +61,8 @@ blockquote {
 		color: $dark;
 	}
 }
+
+// aligns
+.alignleft { text-align: left; }
+.alignright { text-align: right; }
+.aligncenter { text-align: center; }

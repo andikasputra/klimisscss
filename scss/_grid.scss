@@ -1,4 +1,15 @@
 * { box-sizing: border-box; }
+
+//-----------
+// Position
+//-----------
+[class*="fixed-"] {
+	position: fixed;
+	z-index: 9;
+}
+.fixed-top { top: 0;  }
+.fixed-bottom { bottom: 0; }
+
 // container
 .container {
 	position: relative;
